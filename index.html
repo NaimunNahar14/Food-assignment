@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind and Daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Roboto font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+
+        .container {
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 0 100px;
+        }
+
+        .btn {
+            font-family: Roboto, sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #fff;
+            background: #ba571f;
+            padding: 10px 30px;
+            border: none;
+            box-shadow: rgb(0, 0, 0) 0px 7px 26px -12px;
+            border-radius: 13px 4px;
+            display: flex;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="navbar bg-base-100 ">
+                    <div class="navbar-start ">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="text-2xl menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+                                <li><a>Menu</a></li>
+                                <li>
+                                    <a>Events</a>
+                                </li>
+                                <li><a>Gallery</a></li>
+                                <li><a>About</a></li>
+                                <li>
+                                    <a>Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="Images/logo.png" alt="Logo" style="max-width: 80px; height: auto;">
+                    </div>
+                    <div class="navbar-center hidden lg:flex ">
+                        <ul class=" text-xl menu menu-horizontal px-1">
+                            <li><a>Menu</a></li>
+                            <li>
+                                <a>Events</a>
+                            </li>
+                            <li><a>Gallery</a></li>
+                            <li><a>About</a></li>
+                            <li>
+                                <a>Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <a class="btn">Book a Table</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- section 1 -->
+            <section>
+                <div class="hero min-h-screen">
+                    <div class="hero-content flex-col lg:flex-row-reverse">
+                        <img src="Images/restpic.webp" class="max-w-sm rounded-lg shadow-2xl"
+                            style="border-radius: 55px  20px ; height: 500px;" />
+
+                        <img src="Images\Restpic1.jpg" alt="" style=" position: absolute;
+                        bottom: 55px;
+                        right: 500px; 
+                        max-width: 200px;
+                        height: auto; /">
+                        <div>
+                            <h1 class="text-5xl font-bold">We Provide the <br>best for you</h1>
+                            <p class="py-6 mr-12">
+                                The elegant ambiance of the restaurant, <br>
+                                with soft lighting and soothing music, set the stage for a memorable dining experience.
+                            </p>
+                            <div style="display: flex; gap: 8px;">
+                                <button class="btn" style="background-color: #0d151d; margin-right: 5px;">Menu</button>
+                                <button class="btn " style="margin-right: 5px;">Book a Table</button>
+                            </div>
+                            <div class="flex  mt-10">
+                                <a href="#" class="text-2xl text-gray-500 mx-2">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#" class="text-2xl text-gray-500 mx-2">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="text-2xl text-gray-500 mx-2">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Section 2 -->
+            <section>
+                <div class="hero bg-base-200 min-h-screen pb-28">
+                    <div class="hero-content text-center">
+                        <div>
+                            <h1 class="text-5xl font-bold">Our Special Dishes</h1>
+                            <p class="py-6">
+                                Our Special Dishes feature a blend of exquisite flavors and artful presentations to
+                                delight every palate.
+                            </p>
+                            <div class="flex mt-20 space-x-4 ">
+                                <div class="card bg-base-100 shadow-xl"
+                                    style="border-radius: 37px 7px 20px 7px; width: 200px; height: 200px; ">
+                                    <figure class="flex"
+                                        style="position: absolute; top: 0; left: 50%; transform: translate(-50%, -50%);">
+                                        <img src="Images\FoodImag2.jpeg" alt="Custom Image" class="rounded-full"
+                                            style="width: 150px; height: 100px;" />
+                                    </figure>
+                                    <div class="card-body  pt-16">
+                                        <h2 class="card-title text-base text-center font-bold">Spaghetti</h2>
+                                        <p class="text-sm">Spaghetti is a classic Italian pasta.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card  shadow-xl"
+                                    style="border-radius: 37px 7px 20px 7px; width: 200px; height: 200px; position: relative;">
+                                    <figure class="flex"
+                                        style="position: absolute; top: 0; left: 50%; transform: translate(-50%, -50%);">
+                                        <img src="Images\FoodImag1.jpeg" alt="Custom Image" class="rounded-full"
+                                            style="width: 150px; height: 100px;" />
+                                    </figure>
+                                    <div class="card-body text-center  pt-16">
+                                        <h2 class="card-title text-base font-bold">Tofu Chilli</h2>
+                                        <p class="text-sm">Tofu Chilli is a spicy and flavorful dish.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card  shadow-xl"
+                                    style="border-radius: 37px 7px 20px 7px; width: 200px; height: 200px; position: relative;">
+                                    <figure class="flex"
+                                        style="position: absolute; top: 0; left: 50%; transform: translate(-50%, -50%);">
+                                        <img src="Images\FoodImage3.jpeg" alt="Custom Image" class="rounded-full"
+                                            style="width: 150px; height: 100px;" />
+                                    </figure>
+                                    <div class="card-body text-center  pt-16">
+                                        <h2 class="card-title text-base font-bold">Vegetable Salad</h2>
+                                        <p class="text-sm">A vegetable salad is a refreshing and nutritious dish</p>
+                                    </div>
+                                </div>
+
+                                <div class="card  shadow-xl"
+                                    style="border-radius: 37px 7px 20px 7px; width: 200px; height: 200px; position: relative;">
+                                    <figure class="flex"
+                                        style="position: absolute; top: 0; left: 50%; transform: translate(-50%, -50%);">
+                                        <img src="Images\FoodImage4.jpeg" alt="Custom Image" class="rounded-full"
+                                            style="width: 150px; height: 100px;" />
+                                    </figure>
+                                    <div class="card-body text-center  pt-16">
+                                        <h2 class="card-title text-base font-bold">Grilled Salmon with Vegetable</h2>
+                                        <p class="text-sm">Grilled salmon is a succulent dish.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hero bg-base-200">
+                    <div class="hero-content flex-col lg:flex-row">
+                        <img src="Images\Restpic1.jpg" class="max-w-sm rounded-lg shadow-2xl ml-8" />
+                        <div class="ml-8">
+                            <h1 class="text-5xl font-bold">Welcome to our Restaurant </h1>
+                            <p class="py-6">
+                                Indulge in a symphony of flavors at our inviting restaurant, where each dish is crafted
+                                with care to delight your senses.
+                            </p>
+                            <div style="display: flex; gap: 8px;">
+                                <button class="btn" style="background-color: #0d151d; margin-right: 5px;">Menu</button>
+                                <button class="btn " style="margin-right: 5px;">Book a Table</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- Section 3 -->
+            <section>
+                <div class="hero  min-h-screen">
+                    <div class="hero-content flex-col lg:flex-row-reverse">
+                        <img src="Images\chefs pic.jpg" class="max-w-sm rounded-lg shadow-2xl" />
+                        <div>
+                            <h1 class="text-5xl font-bold">Our Expects Chef</h1>
+                            <p class="py-6">
+                                Our esteemed chef brings culinary expertise and passion to every dish, ensuring an
+                                unforgettable dining experience with flavors that speak for themselves.
+                            </p>
+                            <div class="mt-32" style="display: flex; gap: 8px;">
+                                <button class="btn" style="background-color: #0d151d; margin-right: 5px;">Menu</button>
+                                <button class="btn " style="margin-right: 5px;">Book a Table</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section 4 -->
+
+            <div class="hero min-h-screen" style="background-image: url(https://i.ibb.co/k4LmhBm/restpic.webp);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="flex flex-col justify-center items-center h-full">
+                        <h1 class="mb-8 text-5xl font-bold text-white">Get a Promo Code by <br>Subscribing to our Newsletter
+                        </h1>
+                        <form class="w-300">
+                            <fieldset class="form-control">
+                                <div class="join flex">
+                                    <input type="text" placeholder="Enter your email"
+                                        class="input input-bordered join-item" />
+                                    <button class="btn btn-primary join-item ml-2">Subscribe</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
+
+
+
+</body>
+
+</html>
